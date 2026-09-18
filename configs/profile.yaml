@@ -1,0 +1,7 @@
+domain:
+  task: translation
+  input_modalities: [image, transliteration]
+  validation_group: text_or_tablet_group
+  primary_risk: duplicate_or_source_group_leakage
+  first_baseline: character_or_subword_seq2seq
+  notes: keep raw images and derived caches outside Git
