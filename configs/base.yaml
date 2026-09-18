@@ -1,0 +1,23 @@
+competition:
+  name: "Deep Past — Translate Akkadian to English"
+  slug: "deep-past-challenge-translate-akkadian-to-english"
+  metric: "competition-defined translation score"
+
+data:
+  input_dir: null  # null => KAGGLE_INPUT_DIR, then data/raw
+  target: "translation"
+
+validation:
+  strategy: "text/group-aware holdout; confirm split after inspecting data"
+  n_splits: 5
+  shuffle: true
+
+run:
+  seed: 42
+  deterministic: false
+  output_root: outputs
+
+model:
+  name: baseline
+  params: {}
+

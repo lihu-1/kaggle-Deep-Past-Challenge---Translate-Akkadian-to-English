@@ -1,0 +1,20 @@
+competition:
+  name: "Deep Past — Translate Akkadian to English"
+  slug: "deep-past-challenge-translate-akkadian-to-english"
+  metric: "competition-defined translation score"
+data:
+  input_dir: null
+  target: "translation"
+  sample_rows: 200
+validation:
+  strategy: holdout
+  n_splits: 2
+  shuffle: true
+run:
+  seed: 42
+  deterministic: true
+  output_root: outputs
+model:
+  name: smoke
+  params: {}
+

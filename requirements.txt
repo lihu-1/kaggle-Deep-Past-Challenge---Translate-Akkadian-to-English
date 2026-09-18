@@ -1,0 +1,6 @@
+# Pin exact versions after the first successful baseline.
+numpy
+pandas
+pyyaml
+scikit-learn
+
