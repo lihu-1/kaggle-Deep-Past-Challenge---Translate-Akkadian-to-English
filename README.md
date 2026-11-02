@@ -1,5 +1,7 @@
 # Deep Past — Translate Akkadian to English
 
+> 推理方案与运行说明： [SOLUTION.md](SOLUTION.md)
+
 Private solution repository for `deep-past-challenge-translate-akkadian-to-english`.
 
 ## 1. Objective
